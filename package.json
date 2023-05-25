@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx playwright test",
+    "devh": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.2.3",
+    "fs-extra": "^11.1.0"
+  }
+}
